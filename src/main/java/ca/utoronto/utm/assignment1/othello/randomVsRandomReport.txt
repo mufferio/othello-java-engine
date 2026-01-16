@@ -1,0 +1,39 @@
+RandomVSRandom Report
+
+1) What is your conclusion, does the first or
+second player have some advantage, at least for a random strategy?
+
+Based on the results of Random vs Random, Player 2 always had a higher win rate with 10,000 games played
+
+
+2) Watch https://www.youtube.com/watch?v=Iq9DzN6mvYA
+
+3) Briefly write your thoughts on the above video below:
+direct simulation -> A priority real world example, can be simulated
+shuffling -> shuffling labels repeatedly and computing the desired statistic
+ - works when null hypothesis is assumed equivalent
+
+bootstrapping -> treat the data as a measurement of its own distribution
+ - kind of like taking the data and repeating it randomly to see which one comes back more
+
+Cross-validation -> STOPPED VIDEO AT 25:20
+
+Overall, I found the video's deeper dive on the different methods of utilizing statistics to make predictions and find conclusions,
+especially through the use of python to simulate those situations broadened my aspect of making good predictions, as well as how I go
+about how I understand the method at which the prediction arose.
+
+4) H0 is 
+ - Othello is a fair game where if all moves are random, each player has an equal winning chance.
+
+5) Ha is 
+ - Othello is not a fair game where if all moves are random, each player does not have an equal chance of winning.
+6) Choose one of the following and delete the other:
+   My experimental results do support H0, so they do not support Ha
+
+7) As in the video, use either math or code (add a Java Class) to argue for or against H0
+
+ - othello is similar to the coin flip game, which means we can simply use direct simulation to answer our question.
+ We can start with class "OthelloControllerRandomVSRandom"
+
+References: 
+https://www.thoughtco.com/null-hypothesis-vs-alternative-hypothesis-3126413
